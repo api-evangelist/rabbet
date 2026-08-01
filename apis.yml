@@ -1,8 +1,29 @@
 aid: rabbet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rabbet.png
 name: Rabbet
-description: 'Rabbet is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Rabbet (Renovate Simply, Inc.) is an Austin-based construction finance software
+  company backed by QED Investors. It provides two products: a platform for real
+  estate developers to manage construction budgets, draw packaging, and project
+  documents, and a platform for construction lenders to standardize borrower
+  submissions and manage construction loans with compliance controls. Rabbet
+  operates a Public API (tracked on its status page) exposed through custom-scoped
+  enterprise integrations that sync loan, funding, and project data with core
+  banking systems (Fiserv, Finastra, FIS, Jack Henry), loan origination systems
+  (nCino, MeridianLink, Encompass), and BI/data-warehouse tools (Power BI, Tableau,
+  Looker, Amazon). API access is arranged through a scoping engagement rather than
+  a self-service developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/rabbet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Construction Finance
+- Construction Lending
+- Real Estate
+- Draw Management
+- Loan Origination
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,37 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://rabbet.com
+  url: https://rabbet.com
+- type: DeveloperPortal
+  url: https://rabbet.com/developers
+- type: Documentation
+  url: https://help.rabbet.com/en/
+- type: Support
+  url: https://help.rabbet.com/en/
+- type: Blog
+  url: https://rabbet.com/blog
+- type: Pricing
+  url: https://rabbet.com/developers/pricing
+- type: Login
+  url: https://lift.rabbet.com
+- type: TermsOfService
+  url: https://rabbet.com/tos
+- type: PrivacyPolicy
+  url: https://rabbet.com/privacy-policy
+- type: Integrations
+  url: https://rabbet.com/lenders/api-integration
+- type: StatusPage
+  url: https://rabbet.statuspage.io/
+- type: Lifecycle
+  url: lifecycle/rabbet-lifecycle.yml
+- type: TrustCenter
+  url: https://trust.rabbet.com/
+- type: Compliance
+  url: https://trust.rabbet.com/
+- type: DomainSecurity
+  url: security/rabbet-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

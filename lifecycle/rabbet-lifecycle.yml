@@ -1,0 +1,31 @@
+generated: '2026-07-20'
+method: searched
+source: https://rabbet.statuspage.io/
+status_page: https://rabbet.statuspage.io/
+status_page_provider: Atlassian Statuspage
+status_components:
+- Rabbet
+- Authentication
+- Document Parsing
+- Document Processing
+- Public API
+- AP Integrations
+- Email Notifications
+- Exporting Data
+- User Management
+- Reporting
+- Rabbet.com
+versioning:
+  scheme: unknown
+  notes: >-
+    Rabbet exposes a Public API (tracked as a component on the status page) but
+    does not publish a self-service developer portal, OpenAPI spec, or versioning
+    policy. API integrations are custom-scoped enterprise engagements per
+    https://rabbet.com/lenders/api-integration
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+sla:
+  url: null
+  uptime_target: null
+deprecated_operations: []
