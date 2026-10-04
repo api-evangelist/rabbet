@@ -50,7 +50,7 @@ tags:
 - Fintech
 - Construction Finance
 - Construction Lending
-- Real-Estate
+- Real Estate
 - Draw Management
 - Loan Origination
 - Payments
@@ -63,6 +63,7 @@ tags_raw:
 - Draw Management
 - Loan Origination
 - Payments
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
