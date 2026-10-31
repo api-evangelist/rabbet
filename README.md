@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rabbet is a company surfaced as a portfolio company of qed-investors and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Rabbet (Renovate Simply, Inc.) is an Austin-based construction finance software company backed by QED Investors. It provides two products: a platform for real estate developers to manage construction budgets, draw packaging, and project documents, and a platform for construction lenders to standardize borrower submissions and manage construction loans with compliance controls. Rabbet operates a Public API (tracked on its status page) exposed through custom-scoped enterprise integrations that sync loan, funding, and project data with core banking systems (Fiserv, Finastra, FIS, Jack Henry), loan origination systems (nCino, MeridianLink, Encompass), and BI/data-warehouse tools (Power BI, Tableau, Looker, Amazon). API access is arranged through a scoping engagement rather than a self-service developer portal.
 
-Backed by: qed-investors — http://rabbet.com
+**Areas:** Company · Fintech · Construction Finance · Construction Lending · Real Estate · Draw Management · Loan Origination · Payments
+
+## Rabbet on APIs.io
+
+Everything profiled for Rabbet is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rabbet/](https://apis.io/providers/rabbet/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rabbet Domain Security](https://apis.io/security/rabbet/rabbet-domain-security/)
+- [Rabbet Trust Center](https://apis.io/security/rabbet/rabbet-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rabbet.com)
+- [Documentation](https://help.rabbet.com/en/)
+- [Pricing](https://rabbet.com/developers/pricing)
+- [Support](https://help.rabbet.com/en/)
+- [Blog](https://rabbet.com/blog)
+- [Compliance](https://trust.rabbet.com/)
+- [Trust centre](https://trust.rabbet.com/)
+- [Terms of service](https://rabbet.com/tos)
+- [Privacy policy](https://rabbet.com/privacy-policy)
+- [Status](https://rabbet.statuspage.io/)
+
+## API Evangelist rating
+
+**Kin Score 20.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 53.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.0** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rabbet/](https://apis.io/providers/rabbet/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rabbet: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rabbet/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
